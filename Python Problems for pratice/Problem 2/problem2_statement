@@ -1,0 +1,11 @@
+Problem2 Statement:-
+
+a) Write a program which will create a multi-dimension array using np. The program should read the data for each dimension
+from an excel file and store it.Csv, and pandas.
+
+File contains:-
+
+<your_excel_file.xlsx> => You have to save an excel file to execute the program.
+problem2_solution.py => Solution code of problem2 statement.
+
+For demo purpose you have an excel file name as testing.xlsx.
