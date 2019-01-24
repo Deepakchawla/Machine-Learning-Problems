@@ -1,0 +1,9 @@
+Problem1 Statement:-
+
+a) Write a class which takes input from console name of the person, and his/her date of birth. Then when the person’ name is typed it should display the dob.
+b) Some persons dob are secret so those should not be displayed, but will be stored. If a secret person name is entered then you should just display “secret”. However all the data should be persisted, and loaded. We can add to the list. What data structure would you create for these 2 problems.
+
+File contains:-
+
+problem1_data_file.pickle => Entered data will be save in that file.
+problem1_solution.py => Solution code of problem1 statement.
