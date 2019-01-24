@@ -1,0 +1,17 @@
+Problem3 Statement:-
+
+a) Create an addressBook class  as follows: Fname, LName, StreetAddress, City, State, Country, Mobile, email.
+Write a class which will take the input from the console into python memory and also store it in disk.
+It should also remember the data entered. Please note that only email, and phone numbers are guaranteed to be
+different. The program should not accept duplicate email/phone numbers All other fields could be duplicate.
+Design this as a compact class that optimizes on the memory as much as possible
+
+1.Function to find number of occurrences of a Fname.
+2.Function to find number of occurrences of a Lname.
+3.Function to find number of occurrences of a street.
+4.Write one function which can do all of the above 3 tasks
+
+File contains:-
+
+problem3_data_file.pickle => Entered data will be save in that file.
+problem3_solution.py => Solution code of problem3 statement.
