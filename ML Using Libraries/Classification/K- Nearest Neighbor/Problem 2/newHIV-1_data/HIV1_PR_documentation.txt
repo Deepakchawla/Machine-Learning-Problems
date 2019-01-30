@@ -1,0 +1,52 @@
+1. Title: HIV-1 protease cleavage data
+
+2. Source Information
+   
+   -- The data consists of four (4) different data sets: the 746 data;
+      the 1625 data; the Schilling data; and the Impens data. 
+   
+3. Past Usage:
+
+   (a) Rögnvaldsson, You and Garwicz (2015) "State of the art prediction of HIV-1 protease 
+       cleavage sites", Bioinformatics, vol 31 (8), pp. 1204-1210.
+       - Discusses the characteristics of the four data sets.
+       
+              Test data  746         1625        Schilling   Impens
+   Train data
+   746                   -           0.982       0.870       0.833
+   1625                  0.981       -           0.855       0.811
+   Schilling             0.933       0.935       -           0.911
+   Impens                0.902       0.894       0.929       -
+
+ 
+
+5. Number of instances
+   - 746 data: 746 
+   - 1625 data: 1625 
+   - Schilling data: 3272 
+   - Impens data: 947 
+
+6. Number of attributes
+
+   There are only two attributes: a 8 letter string (octamer) and a label that tells whether this
+   string represents a site in a peptide (or protein) where the HIV-1 protease cleaves it (+1 if yes, -1 if no). 
+   The 8 letter string can also be viewed as 8 independent attributes. It is common to map the 8 letters
+   to an orthogonal binary representation; a matrix with 160 elements.
+   
+7. Attributes
+
+   There are 20 allowed letters in the 8 character string (the allowed alphabet): 'ARNDCQEGHILKMFPSTWYV'
+   These represent amino acids.
+   The cleavage label has only two possible values: -1 and +1.
+
+8. Missing values
+
+   There are no missing values
+   
+9. Class distributions
+
+   - 746 data: 401 cleaved, 345 non-cleaved
+   - 1625 data: 374 cleaved, 1251 non-cleaved
+   - Schilling data: 434 cleaved, 2838 non-cleaved
+   - Impens data: 149 cleaved, 798 non-cleaved
+
